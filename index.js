@@ -3,12 +3,8 @@ module.exports = {
   extends: ["standard"],
   rules: {
     "prefer-template": "warn",
-
     "import/order": ["error", {"newlines-between": "always"}],
-    // https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html
     "import/prefer-default-export": "off",
-    "import/no-default-export": "error",
-
     'operator-assignment': ["warn", "always"],
     "space-before-function-paren": ["error", "never"],
     "comma-dangle": ["error", "always-multiline"],
