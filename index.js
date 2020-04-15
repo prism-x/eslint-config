@@ -6,7 +6,11 @@ module.exports = {
     "import/order": ["error", {"newlines-between": "always"}],
     "import/prefer-default-export": "off",
     'operator-assignment': ["warn", "always"],
-    "space-before-function-paren": ["error", "never"],
+    "space-before-function-paren": ["error", {
+      "anonymous": "never",
+      "named": "never",
+      "asyncArrow": "always"
+    }],
     "comma-dangle": ["error", "always-multiline"],
     'max-lines': ['warn', 200],
     complexity: ['warn', 10],
