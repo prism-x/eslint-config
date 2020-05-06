@@ -3,7 +3,7 @@ module.exports = {
   extends: ["standard"],
   rules: {
     "prefer-template": "warn",
-    "import/order": ["error", {"newlines-between": "always"}],
+    "import/order": ["error", {"newlines-between": "never"}],
     "import/prefer-default-export": "off",
     'operator-assignment': ["warn", "always"],
     "space-before-function-paren": ["error", {
