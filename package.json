@@ -4,10 +4,6 @@
   "description": "PrismX' ESLint config",
   "author": "João Magalhães",
   "license": "MIT",
-  "main": "src/index.js",
-  "files": [
-    "src"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/prism-x/eslint-config"
@@ -24,6 +20,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "typescript": "^3.8.3"
   }
 }

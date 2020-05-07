@@ -3,6 +3,7 @@ module.exports = {
   extends: ["standard"],
   rules: {
     "prefer-template": "warn",
+    "padded-blocks": "off",
     "import/order": ["error", {"newlines-between": "never"}],
     "import/prefer-default-export": "off",
     'operator-assignment': ["warn", "always"],
