@@ -1,11 +1,6 @@
+const rules = require("./src/overrides/react")
+
 module.exports = {
-  extends: ["plugin:react/recommended", "plugin:jsx-a11y/recommended"],
-  rules: {
-    "react/display-name": "off"
-  },
-  settings: {
-    react: {
-      version: 'detect'
-    },
-  },
+  extends: ["eslint-config-airbnb"],
+  rules
 }
