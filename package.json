@@ -1,6 +1,6 @@
 {
   "name": "@prismx/eslint-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "PrismX' ESLint config",
   "author": "João Magalhães",
   "license": "MIT",
