@@ -39,4 +39,16 @@ module.exports = {
     },
   ],
   "max-depth": ["warn", 4],
+
+  "no-param-reassign": "off",
+  "arrow-body-style": ["error", "as-needed", { requireReturnForObjectLiteral: false }],
+  "object-property-newline": ["error", {
+    allowAllPropertiesOnSameLine: true,
+  }],
+  "object-curly-newline": ["error", {
+    ObjectExpression: { minProperties: 5, multiline: true, consistent: true },
+    ObjectPattern: { minProperties: 5, multiline: true, consistent: true },
+    // ImportDeclaration: { minProperties: 5, multiline: true, consistent: true },
+    ExportDeclaration: { minProperties: 5, multiline: true, consistent: true },
+  }],
 }

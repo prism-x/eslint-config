@@ -35,6 +35,9 @@ module.exports = {
         // Disable ESLint-based module resolution check for improved monorepo support
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
         "import/no-unresolved": "off",
+
+        "import/extensions": "off",
+        "@typescript-eslint/no-unused-vars": "off",
       }
     },
   ],
