@@ -164,9 +164,6 @@ module.exports = {
           ][1].devDependencies.map((glob) => glob.replace("js,jsx", "js,jsx,ts,tsx")),
       },
     ],
-    // Append 'tsx' to Airbnb 'react/jsx-filename-extension' rule
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
-    "react/jsx-filename-extension": ["error", { extensions: [".jsx", ".tsx"] }],
   },
   ...{
     // Typescript overrides

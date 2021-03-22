@@ -12,6 +12,9 @@ module.exports = {
 
     // should be disabled on typescript
     "react/state-in-constructor": "off",
-    "react/static-property-placement": "off"
+    "react/static-property-placement": "off",
+    // Append 'tsx' to Airbnb 'react/jsx-filename-extension' rule
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
+    "react/jsx-filename-extension": ["error", { extensions: [".jsx", ".tsx"] }],
   }
 }
